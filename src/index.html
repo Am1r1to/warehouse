@@ -12,6 +12,8 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/f7cf299a33.js" crossorigin="anonymous"></script>
     <!-- My CSS -->
     <link rel="stylesheet" href="css/styles.min.css">
 
@@ -19,10 +21,15 @@
 
 <body>
     <header>
-
+        <!-- navigation -->
         <nav>
             <div class="container">
                 <a href="index.html" class="logo">warehouse</a>
+                <div class="burger-menu">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
                 <div class="links">
                     <a href="index.html">home</a>
                     <a href="#">properties</a>
@@ -122,8 +129,182 @@
 
                 </div>
             </div>
+
+        </div>
+
+        <!-- HOW IT WORKS -->
+
+        <div class="block">
+            <div class="container">
+                <h2>how it works</h2>
+                <div class="articles">
+                    <div class="step">
+                        <p>01.<i class="fas fa-search"></i></p>
+                        <h3>Find Property</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                    </div>
+                    <div class="step">
+                        <p>02.<i class="fas fa-euro-sign"></i></p>
+                        <h3>Buy Property</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                    </div>
+                    <div class="step">
+                        <p>03.<i class="fas fa-home"></i></p>
+                        <h3>Outstanding Houses</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- NEWS & EVENTS -->
+
+        <div class="container">
+            <h2>news & events</h2>
+            <div class="articles">
+                <div class="news">
+                    <img src="img/img_1.jpg" alt="img_1">
+                    <div class="text">
+                        <h3>NEWS TITLE 1</h3>
+                        <span>
+                            Allisson Holmes
+                        </span>
+                        <span>
+                            Jan 18, 2019
+                        </span>
+                        <span>
+                            <a href="#">
+                                Outstanding properties
+                            </a>
+                        </span>
+                    </div>
+                </div>
+                <div class="news">
+                    <img src="img/img_2.jpg" alt="img_2">
+                    <div class="text">
+                        <h3>NEWS TITLE 2</h3>
+                        <span>
+                            Allisson Holmes
+                        </span>
+                        <span>
+                            Jan 18, 2019
+                        </span>
+                        <span>
+                            <a href="#">
+                                Outstanding properties
+                            </a>
+                        </span>
+                    </div>
+                </div>
+                <div class="news">
+                    <img src="img/img_3.jpg" alt="img_3">
+                    <div class="text">
+                        <h3>NEWS TITLE 3</h3>
+                        <span>
+                            Allisson Holmes
+                        </span>
+                        <span>
+                            Jan 18, 2019
+                        </span>
+                        <span>
+                            <a href="#">
+                                Outstanding properties
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CONTACT US -->
+        <div class="contact">
+            <div class="container">
+                <h2>contact us</h2>
+                <div class="articles">
+                    <div class="formulaire">
+                        <h3>Get in touch</h3>
+                        <form>
+                            <div class="nom">
+                                <div>
+                                    <label>First name</label>
+                                    <input type="text" id="first-name">
+                                </div>
+                                <div>
+                                    <label>Last name</label>
+                                    <input type="text" id="last-name">
+                                </div>
+                            </div>
+                            <div>
+                                <label>Email</label>
+                                <input type="text" id="email">
+                            </div>
+                            <div>
+                                <label>Subject</label>
+                                <input type="text" id="Subject">
+                            </div>
+                            <div>
+                                <label>Message</label>
+                                <textarea name="message" cols="30" placeholder="Write your notes or questions here.."
+                                    rows="10"></textarea>
+                            </div>
+                            <div class="btn">Send Message</div>
+                        </form>
+                    </div>
+                    <div class="informations">
+                        <div>
+                            <h4>Adress</h4>
+                            <p>203 Fake St. Mountain View, San Francisco, California, USA</p>
+
+                        </div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p><a href="#">+1 232 3235 324</a></p>
+                        </div>
+                        <div>
+                            <h4>Email Address</h4>
+                            <p><a href="#">youremail@domain.com</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </main>
 
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="articles">
+                <div class="about">
+                    <h4>About us</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facere laudantium magnam voluptatum autem. Amet aliquid nesciunt veritatis aliquam.</p>
+                </div>
+                <div class="follow">
+                    <h4>Follow us</h4>
+                    <div class="social">
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i></a>
+                        <a href="#">
+                            <i class="fab fa-twitter"></i></a>
+                        <a href="#">
+                            <i class="fab fa-instagram"></i></a>
+                        <a href="#">
+                            <i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <p class="copyright">
+                Copyright © 2020 All rights reserved | This template is made with by <a href="#">Colorlib</a>
+            </p>
+        </div>
+    </footer>
 
 
     <script src="js/scripts.min.js"></script>
