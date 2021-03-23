@@ -1,7 +1,8 @@
-img{
+img {
     max-width: 100%;
     display: block;
 }
+
 .btn {
     background-color: #37cfa2;
     padding: 15px 40px;
@@ -28,7 +29,7 @@ h3 {
 main {
     .container {
         width: 70%;
-        margin: 0 auto;
+        margin: 30px auto;
     }
 
     h2 {
@@ -46,6 +47,7 @@ main {
 .articles {
     display: flex;
     justify-content: space-between;
+    margin: 30px 0;
 }
 
 .article {
@@ -75,28 +77,55 @@ main {
         transition: all .3s ease-in-out;
         cursor: pointer;
     }
-    .text{
+
+    .text {
         margin-left: 0px;
         transition: all .3s ease-in-out;
-        p{
+
+        p {
             color: rgb(143, 143, 143);
         }
     }
-    &:hover .text{
+
+    &:hover .text {
         margin-left: 50px;
         transition: all .3s ease-in-out;
-        h3{
+
+        h3 {
             color: #fff;
         }
     }
 }
-.profile{
-        width: 30%;
+
+.profile {
+    width: 30%;
+   .image{
+       overflow: hidden;
+       img{
+        transition: all .2s ease; 
+       }
+   }
+    .image:hover img{
+        transform: scale(1.10);
+        transition: all .2s ease; 
+    }
 
 }
-.name{
+
+.name {
     background-color: #37cfa2;
     display: inline-block;
     width: 100%;
     padding: 10px;
+    z-index: 22;
+
+    p:nth-child(1) {
+        text-transform: uppercase;
+        font-family: "Oswald";
+        font-weight: 300;
+    }
+    
+    p:nth-child(2) {
+        font-weight: 400;
+    }
 }
