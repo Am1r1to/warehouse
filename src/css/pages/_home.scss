@@ -15,6 +15,9 @@ img {
     cursor: pointer;
     font-family: 'Roboto';
     display: inline-block;
+    &:hover{
+        background-color: #000;
+    }
 }
 
 h1,
@@ -53,6 +56,7 @@ main {
 .article {
     position: relative;
     margin-bottom: 10px;
+    cursor:pointer;
 
     img {
         width: 350px;
@@ -70,13 +74,14 @@ main {
         z-index: -1;
         transition: all .3s ease-in-out;
         opacity: 0;
+        
     }
 
     &:hover:before {
         opacity: 1;
         left: 30px;
         transition: all .3s ease-in-out;
-        cursor: pointer;
+        
     }
 
     .text {
@@ -196,14 +201,7 @@ main {
         padding: 30px;
         width: 50%;
 
-        input,
-        textarea {
-            padding: 10px;
-            border-radius: 5px;
-            border: 1px solid #d4d4d4;
-            width: 100%;
-            margin: 10px 0 20px 0;
-        }
+
 
         textarea {
             resize: vertical;
@@ -229,6 +227,14 @@ main {
     }
 }
 
+input,
+textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #d4d4d4;
+    width: 100%;
+    margin: 10px 0 20px 0;
+}
 
 @media screen and (max-width: 1300px) {
 
@@ -246,6 +252,7 @@ main {
         flex-wrap: wrap;
         align-items: center;
     }
+
     .profile {
         width: 45%;
         margin-bottom: 20px;
@@ -254,7 +261,7 @@ main {
     .step {
         &:not(:nth-of-type(3))::after {
             display: none;
-            
+
         }
     }
 }
@@ -280,7 +287,7 @@ main {
     .step {
         width: 50%;
         margin-bottom: 20px;
-        
+
     }
 
     .news {
@@ -292,14 +299,14 @@ main {
     .contact {
         background: #fafafa;
         padding: 20px 0;
-    
+
         .formulaire {
-            width: 100%;  
+            width: 100%;
         }
-    
+
         .informations {
             width: 100%;
-         
+
         }
     }
 }

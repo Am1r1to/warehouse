@@ -1,0 +1,86 @@
+.main-single{
+    color: gray;
+}
+.container.single{
+    max-width: 1080px;
+    width: 80%;
+}
+.swiper-slide.hero1.single {
+    height: 100vh;
+
+    .contenu {
+        width: 50%;
+    }
+
+    a {
+        color: #fff;
+    }
+
+    p {
+        font-size: 24px;
+        font-weight: 300;
+    }
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+
+    .description {
+        width: 65%;
+        p{
+            line-height: 25px;
+        }
+
+        .first {
+            font-weight: 200;
+            font-size: 22px;
+            line-height: 35px;
+        }
+        a{
+            text-decoration: none;
+            color: #37cfa2;
+            &:hover{
+                color: green;
+            }
+        }
+    }
+
+    .author {
+        width: 30%;
+        p{
+            line-height: 30px;
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 1300px) {
+
+    .content {
+        flex-wrap: wrap;
+        flex-direction: column;
+        
+    
+        .description {
+            width: 100%;
+            
+            }
+    
+        .author {
+            min-width: 50%;
+           
+        }
+    }
+}
+
+@media screen and (max-width: 780px) {
+
+    .content {
+    
+        .author {
+            min-width: 80%;
+        }
+    }
+}
