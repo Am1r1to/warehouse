@@ -88,3 +88,14 @@ body {
 
 
 
+
+
+@media screen and (max-width: 780px) {
+ 
+  .contenu{
+    z-index: 50 !important;
+    color: rgb(255, 254, 254);
+    width: 90%;
+  }
+  
+}
