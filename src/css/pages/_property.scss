@@ -27,6 +27,7 @@
 
 .swiper-slide.prop::after {
     height: 50vh;
+    left: 0;
 }
 
 .slider,
@@ -97,6 +98,7 @@
     }
 
     .swiper-slide.hero1.single.prop{
+        padding-right: 0;
         .contenu{
             width: 90%;
           }
